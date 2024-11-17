@@ -1,5 +1,1 @@
-pandas
-streamlit
-numpy
-sklearn
 pycaret
