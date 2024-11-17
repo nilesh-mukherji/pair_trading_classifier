@@ -1,8 +1,9 @@
 import requests
 import pandas as pd
+import os
 
 # Replace with your Financial Modeling Prep API key
-API_KEY = "FYvLO1rxkYafjeq8v1nYxtUvwtmbImZ1"
+API_KEY = os.getenv("API_KEY")
 
 # List of top 10 sector indices (replace with actual symbols from FMP if needed)
 sector_indices = [
